@@ -4,7 +4,7 @@
   "description": "HTML Tailwind Starter",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch"
+    "build": "npx tailwindcss build -i ./tailwind.css -o ./style.css -w"
   },
   "keywords": [
     "html",
@@ -13,8 +13,7 @@
   ],
   "repository": "https://github.com/coderMaruf/e-school.git",
   "author": "Maruf",
-  "license": "MIT",
-  "private": false,
+  "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.0.7"
   }
