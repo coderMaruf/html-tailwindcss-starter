@@ -1,20 +1,19 @@
 {
-  "name": "e-school",
-  "version": "1.0.0",
-  "description": "HTML Tailwind Starter",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx tailwindcss build -i ./tailwind.css -o ./style.css -w"
-  },
-  "keywords": [
-    "html",
-    "css",
-    "js"
-  ],
-  "repository": "https://github.com/coderMaruf/e-school.git",
-  "author": "Maruf",
-  "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.0.7"
-  }
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "HTML Tailwindcss Starter",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/style.css -w"
+    },
+    "keywords": [
+        "html",
+        "css",
+        "tailwindcss"
+    ],
+    "author": "Maruf",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.0.8"
+    }
 }
