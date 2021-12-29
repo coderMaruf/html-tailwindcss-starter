@@ -10,7 +10,7 @@
 
     npm install
 
-    npm start
+    npm run build
 
 ### Now open your project with vs-code live-server extension.
 
